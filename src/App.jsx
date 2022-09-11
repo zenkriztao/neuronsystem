@@ -18,6 +18,7 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Navbar />
         <Hero />
+        <Stats />
       </div>
     </div>
 
@@ -32,7 +33,6 @@ const App = () => (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <CardDeal />
-        <Stats />
       </div>
     </div>
 
