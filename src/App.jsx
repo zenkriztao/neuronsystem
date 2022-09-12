@@ -13,20 +13,18 @@ import {
 } from "./components";
 
 const App = () => (
-  <div className="bg-[#052f85] w-full overflow-hidden">
+  <div className="bg-[#052f85] w-full border- overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
-        <Hero />
+        <Billing />
         <Stats />
       </div>
     </div>
 
     <div className={`bg-[#f4f7fa] ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Billing />
-        <Business />
-        <Testimonials />
+        <Hero />
       </div>
     </div>
 
