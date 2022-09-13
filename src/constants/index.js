@@ -1,4 +1,19 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import {
+  people01,
+  people02,
+  people03,
+  facebook,
+  instagram,
+  linkedin,
+  twitter,
+  airbnb,
+  binance,
+  coinbase,
+  dropbox,
+  send,
+  shield,
+  star,
+} from "../assets";
 
 export const navLinks = [
   {
@@ -51,7 +66,7 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
+      "Mengikuti Platform Class Bimbel Intensif UTBK 2020 (PTN) – Terima kasih kak atas bimbingan serta tryoutnya, yang PTN ini sangat membantu saya dalam meraih PTN impian, Terima kasih atas bimbingannya.",
     name: "Herman Jensen",
     title: "Founder & Leader",
     img: people01,
@@ -59,7 +74,7 @@ export const feedback = [
   {
     id: "feedback-2",
     content:
-      "Money makes your life easier. If you're lucky to have it, you're lucky.",
+      "Mengikuti Platform Class Bimbel Intensif UTBK 2020 (PTN) – Kakak tutornya ramah dan friendly, sangat membantu banget yang masih blm ngerti banyak hal tentang soal utbk, semenjak saya ikut program ini jdi makin tambah semangat untuk bersaing dgn murid yang lain, Terima kasih Neura.  ",
     name: "Steve Mark",
     title: "Founder & Leader",
     img: people02,
@@ -67,7 +82,15 @@ export const feedback = [
   {
     id: "feedback-3",
     content:
-      "It is usually people in the money business, finance, and international trade that are really rich.",
+      "Mengikuti Platform Class Bimbel Intensif UTBK 2020 (PTN) – Platform yang bagus banget bagi saya sebagai pejuang PTN, Terima kasih Neura atas Program Intermediate Campus, berkat platform ini saya akhirnya keterima di ptn, pokoknya recommend buat adik kelasku.",
+    name: "Kenn Gallagher",
+    title: "Founder & Leader",
+    img: people03,
+  },
+  {
+    id: "feedback-4",
+    content:
+      "Mengikuti Platform Class Bimbel Intensif UTBK 2020 (PTN) – Platform yang bagus banget bagi saya sebagai pejuang PTN, Terima kasih Neura atas Program Intermediate Campus, berkat platform ini saya akhirnya keterima di ptn, pokoknya recommend buat adik kelasku.",
     name: "Kenn Gallagher",
     title: "Founder & Leader",
     img: people03,
@@ -94,65 +117,48 @@ export const stats = [
 
 export const footerLinks = [
   {
-    title: "Useful Links",
+    title: "Platform - Fitur",
     links: [
       {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
-    ],
-  },
-  {
-    title: "Community",
-    links: [
-      {
-        name: "Help Center",
+        name: "Testimoni",
         link: "https://www.hoobank.com/help-center/",
       },
       {
-        name: "Partners",
+        name: "Program Kelas",
         link: "https://www.hoobank.com/partners/",
       },
       {
-        name: "Suggestions",
+        name: "Tryout",
         link: "https://www.hoobank.com/suggestions/",
       },
       {
-        name: "Blog",
+        name: "Self Development",
         link: "https://www.hoobank.com/blog/",
       },
       {
-        name: "Newsletters",
+        name: "Beasiswa",
         link: "https://www.hoobank.com/newsletters/",
       },
     ],
   },
   {
-    title: "Partner",
+    title: "Tentang",
     links: [
       {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
+        name: "Alamat",
+        link: "https://www.hoobank.com/content/",
       },
       {
-        name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        name: "Kontak",
+        link: "https://www.hoobank.com/how-it-works/",
+      },
+      {
+        name: "Karir",
+        link: "https://www.hoobank.com/create/",
+      },
+      {
+        name: "Blog",
+        link: "https://www.hoobank.com/explore/",
       },
     ],
   },

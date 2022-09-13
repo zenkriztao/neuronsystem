@@ -16,28 +16,19 @@ import {
 } from "./components";
 
 const App = () => (
-  <div className="bg-[#ffff] w-full border- overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Navbar />
-      </div>
-    </div>
-
+  <div className="bg-[#052f85] w-full border- overflow-hidden">
     <div className="bg-[#052f85] w-full border- overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
-        <Billing />
-        <Stats />
+      <div className={`${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+          <Billing />
+          <Stats />
+        </div>
       </div>
     </div>
-    </div>
-
-
-    
 
     <div className={`bg-[#f4f7fa] ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Hero />
         <Banner />
       </div>
     </div>
@@ -48,18 +39,27 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-[#d0ddf0] ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-[#ffffff] ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
+        <Hero />
         <Information />
+      </div>
+    </div>
+
+    <div className={`bg-[#fefcd9] ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
         <SectionImage />
       </div>
     </div>
 
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-[#f4f7fa] ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`$styles.boxWidth`}>
         <Testimonials />
         <Clients />
-        <CTA />
+      </div>
+    </div>
+    <div className={`bg-[#2645ad] ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`$styles.boxWidth`}>
         <Footer />
       </div>
     </div>

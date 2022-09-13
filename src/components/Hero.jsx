@@ -14,18 +14,13 @@ const Hero = () => {
       >
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className={`flex-1 font-poppins font-semibold ss:text-[60px] text-[52px] ${style.heading2} ss:leading-[100.8px] leading-[75px]`}>
-            Semangat berjuang bersama <br className="sm:block hidden" />{" "}
+            Kelas Interaktif dengan Tutor hebat <br className="sm:block hidden" />{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0"></div>
         </div>
 
         <p className={`${styles.paragraph2} max-w-[470px] mt-5`}>
-          Neuron adalah Startup Pendidikan Pertama di Indonesia yang menerapkan
-          live class (Tanya Tutor) yang berintegrasi langsung dengan tutor Neuron
-          melalui akses platform zoom. Platform ini hadir untuk mendukung
-          generasi muda di Indonesia meraih impian mereka di perguruan tinggi,
-          kedinasan maupun ujian dalam negeri lainnya. Neuron mendorong setiap
-          generasi muda Indonesia untuk kompetitif di level global  .
+         Dengan tutor dari lulusan terbaik, kelas interaktif online dapat membantu siswa/i dalam mencapai perguruan tinggi negeri favorit.
         </p>
 
         <div className="flex sm:mt-10 mt-6">
