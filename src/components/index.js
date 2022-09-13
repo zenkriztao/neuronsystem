@@ -7,6 +7,9 @@ import CTA from "./CTA";
 import Stats from "./Stats";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
+import Information from "./Information";
+import Banner from "./Banner";
+import SectionImage from "./SectionImage";
 import Hero from "./Hero";
 
 export {
@@ -19,5 +22,8 @@ export {
   Stats,
   Footer,
   Testimonials,
+  Information,
+  Banner,
+  SectionImage,
   Hero,
 };

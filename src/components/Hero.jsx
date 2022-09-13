@@ -1,6 +1,7 @@
 import styles from "../style";
-import { discount, heroEducation, robot } from "../assets";
-import GetStarted from "./GetStarted";
+import { discount, heroEducation, robot, apple, bill, google } from "../assets";
+
+import style from "../style";
 
 const Hero = () => {
   return (
@@ -12,14 +13,13 @@ const Hero = () => {
         className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
       >
         <div className="flex flex-row justify-between items-center w-full">
-          <h1 className="flex-1 font-poppins font-semibold ss:text-[60px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
+          <h1 className={`flex-1 font-poppins font-semibold ss:text-[60px] text-[52px] ${style.heading2} ss:leading-[100.8px] leading-[75px]`}>
             Semangat berjuang bersama <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Neuron system</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0"></div>
         </div>
 
-        <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+        <p className={`${styles.paragraph2} max-w-[470px] mt-5`}>
           Neuron adalah Startup Pendidikan Pertama di Indonesia yang menerapkan
           live class (Tanya Tutor) yang berintegrasi langsung dengan tutor Neuron
           melalui akses platform zoom. Platform ini hadir untuk mendukung
@@ -27,6 +27,19 @@ const Hero = () => {
           kedinasan maupun ujian dalam negeri lainnya. Neuron mendorong setiap
           generasi muda Indonesia untuk kompetitif di level global  .
         </p>
+
+        <div className="flex sm:mt-10 mt-6">
+        <img
+          src={apple}
+          alt="google_play"
+          className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer"
+        />
+        <img
+          src={google}
+          alt="google_play"
+          className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
+        />
+        </div>
       </div>
 
       <div

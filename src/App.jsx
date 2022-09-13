@@ -9,22 +9,36 @@ import {
   Navbar,
   Stats,
   Testimonials,
+  Information,
+  Banner,
+  SectionImage,
   Hero,
 } from "./components";
 
 const App = () => (
-  <div className="bg-[#052f85] w-full border- overflow-hidden">
+  <div className="bg-[#ffff] w-full border- overflow-hidden">
     <div className={`${styles.paddingX} ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
         <Navbar />
+      </div>
+    </div>
+
+    <div className="bg-[#052f85] w-full border- overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
         <Billing />
         <Stats />
       </div>
     </div>
+    </div>
+
+
+    
 
     <div className={`bg-[#f4f7fa] ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
+        <Banner />
       </div>
     </div>
 
@@ -36,7 +50,8 @@ const App = () => (
 
     <div className={`bg-[#d0ddf0] ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <Billing />
+        <Information />
+        <SectionImage />
       </div>
     </div>
 
