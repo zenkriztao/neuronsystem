@@ -1,4 +1,4 @@
-import { apple, bill, google, kelas, live, gmeet, zoom } from "../assets";
+import { kelas, gmeet, zoom } from "../assets";
 import styles, { layout } from "../style";
 
 import { Fade } from "react-reveal";
@@ -8,14 +8,12 @@ const Information = () => (
       <div className={layout.sectionImgReverse}>
         <img
           src={kelas}
-          alt="billing"
+          alt="kelas"
           className="w-[100%] h-[100%] relative z-[5]"
         />
 
-        {/* gradient start */}
         <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
         <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
-        {/* gradient end */}
       </div>
 
       <div className={layout.sectionInfo}>
@@ -30,12 +28,12 @@ const Information = () => (
         <div className="flex sm:mt-10 mt-6">
           <img
             src={gmeet}
-            alt="google_play"
+            alt="gmeet"
             className="w-[144.86px] h-[50.05px] object-contain mr-5 cursor-pointer"
           />
           <img
             src={zoom}
-            alt="google_play"
+            alt="zoom"
             className="w-[144.17px] h-[50.08px] object-contain cursor-pointer"
           />
         </div>

@@ -1,4 +1,4 @@
-import { card, cs } from "../assets";
+import { cs } from "../assets";
 import styles, { layout } from "../style";
 
 import { Fade } from "react-reveal";
@@ -14,7 +14,7 @@ const Cs = () => (
       <div className={layout.sectionImgBanner}>
         <img
           src={cs}
-          alt="billing"
+          alt="cs"
           className="w-auto h-[300px] bg-white rounded-r-[30px] rounded-3xl"
         />
       </div>

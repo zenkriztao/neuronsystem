@@ -1,10 +1,8 @@
-import { card } from "../assets";
 import styles, { layout } from "../style";
-import Button from "./Button";
 
 import { Fade } from "react-reveal";
 
-const CardDeal = () => (
+const Item = () => (
   <section className="flex-auto m-8 p-1 justify-center items-center">
     <Fade bottom>
       <div className={layout.sectionInfo}>
@@ -18,7 +16,7 @@ const CardDeal = () => (
         <div className="flex flex-row flex-wrap sm:mt-10 mt-10">
           <button
             type="button"
-            className={`py-4 px-8 font-poppins font-medium text-[18px] text-[#ffffff] border-gray-800 bg-[#FF770B] rounded-[25px] outline-none ${styles} hover:bg-[#FF7749] hover:text-white`}
+            className={`py-4 px-8 font-poppins font-medium text-[18px] text-[#ffffff] border-gray-800 bg-[#FF770B] rounded-[30px] outline-none ${styles} hover:bg-[#FF7749] hover:text-white`}
           >
             Matematika
           </button>
@@ -36,4 +34,4 @@ const CardDeal = () => (
   </section>
 );
 
-export default CardDeal;
+export default Item;

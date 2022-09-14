@@ -1,13 +1,13 @@
 import { feedback } from "../constants";
 import styles from "../style";
-import FeedbackCard from "./FeedbackCard";
+import Card from "./Card";
 
 import { Fade } from "react-reveal";
 
 const Testimonials = () => (
   <Fade right>
     <section
-      id="clients"
+      id="testimoni"
       className={`${styles.paddingY} ${styles.flexCenter} flex-col relative p-6`}
     >
       <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
@@ -23,7 +23,7 @@ const Testimonials = () => (
       <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1] px-10">
         {" "}
         {feedback.map((card) => (
-          <FeedbackCard key={card.id} {...card} />
+          <Card key={card.id} {...card} />
         ))}{" "}
       </div>{" "}
     </section>

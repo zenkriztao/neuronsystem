@@ -1,34 +1,32 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
-import CardDeal from "./CardDeal";
-import Business from "./Business";
-import Clients from "./Clients";
-import CTA from "./CTA";
-import Stats from "./Stats";
+import HeroSection from "./HeroSection";
+import Card from "./Card";
+import Item from "./Item";
+import User from "./User";
 import Footer from "./Footer";
 import Testimonials from "./Testimonials";
 import Information from "./Information";
-import Banner from "./Banner";
+import Product from "./Product";
 import SectionImage from "./SectionImage";
 import Hero from "./Hero";
+import Payment from "./Payment";
 import Cs from "./Cs";
 import Promo from "./Promo";
 import Kelas from "./Kelas";
 
 export {
   Navbar,
-  Billing,
-  CardDeal,
-  Business,
-  Clients,
-  CTA,
-  Stats,
+  HeroSection,
+  Card,
+  Item,
+  User,
   Footer,
   Testimonials,
   Information,
-  Banner,
+  Product,
   SectionImage,
   Hero,
+  Payment,
   Cs,
   Promo,
   Kelas,

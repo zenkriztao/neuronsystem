@@ -1,14 +1,5 @@
 import styles from "../style";
-import {
-  discount,
-  heroEducation,
-  robot,
-  apple,
-  bill,
-  google,
-  interaktif,
-} from "../assets";
-
+import { apple, google, interaktif } from "../assets";
 import style from "../style";
 
 import { Fade } from "react-reveal";
@@ -16,11 +7,10 @@ import { Fade } from "react-reveal";
 const Hero = () => {
   return (
     <Fade left>
-    <section
-      id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
-    >
-        <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-1000" />
+      <section
+        id="home"
+        className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      >
         <div
           className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
         >
@@ -42,12 +32,12 @@ const Hero = () => {
           <div className="flex sm:mt-10 mt-6">
             <img
               src={apple}
-              alt="google_play"
+              alt="apple"
               className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer"
             />
             <img
               src={google}
-              alt="google_play"
+              alt="google"
               className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
             />
           </div>
@@ -58,19 +48,17 @@ const Hero = () => {
         >
           <img
             src={interaktif}
-            alt="billing"
+            alt="interaktif"
             className="w-[100%] h-[100%] relative z-[5]"
           />
 
-          {/* gradient start */}
           <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
           <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />
           <div className="absolute z-[0] w-[50%] h-[50%] right-20 bottom-20 blue__gradient" />
-          {/* gradient end */}
         </div>
 
         <div className={`ss:hidden ${styles.flexCenter}`}></div>
-    </section>
+      </section>
     </Fade>
   );
 };
