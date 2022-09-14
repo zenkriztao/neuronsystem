@@ -18,7 +18,7 @@ import {
 } from "./components";
 
 const App = () => (
-  <div className="bg-[#052f85] w-full border- overflow-hidden">
+  <div className="w-full overflow-hidden">
     <div className="bg-[#052f85] w-full border- overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
@@ -49,7 +49,7 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-[#fefcd9] ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-[#fefcd9] ${styles.paddingX} ${styles.flexCenter} rounded-tl-[500px] rounded-br-[500px]`}>
       <div className={`${styles.boxWidth}`}>
         <SectionImage />
       </div>

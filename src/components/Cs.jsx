@@ -3,7 +3,7 @@ import styles, { layout } from "../style";
 
 const Cs = () => (
   <section className={`${styles.padding} ${styles.flexCenter} flex-col relative cursor-pointer`}>
-     <h2 className={` ${styles.heading2} align-bottom`}>
+     <h2 className="font-poppins font-semibold xs:text-[42px] text-[20px] text-[#052f85] xs:leading-[36.8px] leading-[66.8px] p-5">
           Kamu bingung tentang paket? Yuk tanya Cs kami
       </h2>{" "}
     <div className={layout.sectionImgBanner}>

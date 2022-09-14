@@ -14,6 +14,12 @@ import {
   send,
   shield,
   star,
+  gopay,
+  mandiri, 
+  indomaret,
+  bca,
+  bri,
+  bni,
 } from "../assets";
 
 export const navLinks = [
@@ -187,18 +193,26 @@ export const socialMedia = [
 export const clients = [
   {
     id: "client-1",
-    logo: airbnb,
+    logo: bni,
   },
   {
     id: "client-2",
-    logo: binance,
+    logo: bri,
   },
   {
     id: "client-3",
-    logo: coinbase,
+    logo: bca,
   },
   {
     id: "client-4",
-    logo: dropbox,
+    logo: mandiri,
+  },
+  {
+    id: "client-5",
+    logo: indomaret,
+  },
+  {
+    id: "client-6",
+    logo: gopay,
   },
 ];

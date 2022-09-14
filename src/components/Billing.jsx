@@ -5,6 +5,7 @@ import GetStarted from "./GetStarted";
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
+    <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full white__gradient bottom-40" />
     <div className={layout.sectionImgReverse}>
       <img
         src={hero}

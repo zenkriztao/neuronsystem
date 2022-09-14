@@ -1,4 +1,4 @@
-import { apple, bill, google, kelas, live } from "../assets";
+import { apple, bill, google, kelas, live, gmeet, zoom } from "../assets";
 import styles, { layout } from "../style";
 
 const Information = () => (
@@ -21,7 +21,18 @@ const Information = () => (
       <p className={`${styles.paragraph2} max-w-[470px] mt-5`}>
         Konsep video interaktif dapat membantu mempermudah pemahaman dalam menyerap materi.
       </p>
-
+      <div className="flex sm:mt-10 mt-6">
+        <img
+          src={gmeet}
+          alt="google_play"
+          className="w-[144.86px] h-[50.05px] object-contain mr-5 cursor-pointer"
+        />
+        <img
+          src={zoom}
+          alt="google_play"
+          className="w-[144.17px] h-[50.08px] object-contain cursor-pointer"
+        />
+        </div>
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
       </div>
     </div>
