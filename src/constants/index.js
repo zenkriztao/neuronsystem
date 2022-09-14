@@ -24,20 +24,20 @@ import {
 
 export const navLinks = [
   {
-    id: "produk",
-    title: "Produk",
+    id: "home",
+    title: "Home",
   },
   {
-    id: "mitra",
-    title: "Mitra",
+    id: "produk",
+    title: "Produk",
   },
   {
     id: "beasiswa",
     title: "Beasiswa",
   },
   {
-    id: "flashsale",
-    title: "Flashsale",
+    id: "mitra",
+    title: "Mitra",
   },
   {
     id: "download",

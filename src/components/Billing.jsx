@@ -1,11 +1,14 @@
 import { apple, bill, google, hero } from "../assets";
 import styles, { layout } from "../style";
 
+import Fade from 'react-reveal/Fade';
+
 import GetStarted from "./GetStarted";
 
 const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full white__gradient bottom-40" />
+    <Fade left>
     <div className={layout.sectionImgReverse}>
       <img
         src={hero}
@@ -18,7 +21,8 @@ const Billing = () => (
       <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
       {/* gradient end */}
     </div>
-
+    </Fade>
+    <Fade right>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
         <span className="text-gradient">Neuron system </span>
@@ -36,6 +40,7 @@ const Billing = () => (
         <GetStarted />
       </div>
     </div>
+    </Fade>
   </section>
 );
 

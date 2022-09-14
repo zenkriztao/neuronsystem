@@ -15,6 +15,7 @@ import {
   Hero,
   Cs,
   Promo,
+  Kelas,
 } from "./components";
 
 const App = () => (
@@ -46,6 +47,7 @@ const App = () => (
       <div className={`${styles.boxWidth}`}>
         <Hero />
         <Information />
+        <Kelas />
       </div>
     </div>
 

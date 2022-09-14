@@ -29,6 +29,7 @@ import heroEducation from "./hero-education.png";
 import promo from "./promo.png";
 // https://giphy.com/stickers/wsd2021-worldscienceday-worldscienceday2021-ruluKx161y0G0Mi6h0
 // https://giphy.com/stickers/MTTCCollege-education-mttc-college-XDYzIXmzT8OenumcXj
+// https://icons8.com/illustrations/illustration/polar-student
 import hero from "./hero.gif";
 // https://giphy.com/stickers/STLCC-school-book-calculator-llymNQTOvanhpIuzas
 import kelas from "./kelas.gif";
@@ -57,6 +58,8 @@ import bri from "./bri.png";
 import char from "./character.png";
 // https://giphy.com/stickers/circle-line-smear-3xz2ByuDKypEEL0Y6I
 import charInfo from "./charInfo.gif";
+// https://icons8.com/illustrations/illustration/kingdom-open-book
+import book from "./book.gif";
 
 
 
@@ -108,4 +111,5 @@ export {
   bca,
   char,
   charInfo,
+  book,
 };

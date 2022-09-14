@@ -1,25 +1,25 @@
 import styles from "../style";
 import {
   discount,
-  heroEducation,
   robot,
   apple,
   bill,
   google,
   interaktif,
+  book,
 } from "../assets";
 
 import style from "../style";
 
 import { Fade } from "react-reveal";
 
-const Hero = () => {
+const Kelas = () => {
   return (
-    <Fade left>
-    <section
-      id="home"
-      className={`flex md:flex-row flex-col ${styles.paddingY}`}
-    >
+    <Fade bottom>
+      <section
+        id="home"
+        className={`flex md:flex-row flex-col ${styles.paddingY}`}
+      >
         <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-1000" />
         <div
           className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
@@ -28,8 +28,7 @@ const Hero = () => {
             <h1
               className={`flex-1 font-poppins font-semibold ss:text-[60px] text-[52px] ${style.heading2} ss:leading-[100.8px] leading-[75px]`}
             >
-              Kelas Interaktif dengan Tutor hebat{" "}
-              <br className="sm:block hidden" />{" "}
+              Ribuan soal premium Gratis! <br className="sm:block hidden" />{" "}
             </h1>
             <div className="ss:flex hidden md:mr-4 mr-0"></div>
           </div>
@@ -39,25 +38,14 @@ const Hero = () => {
             membantu siswa/i dalam mencapai perguruan tinggi negeri favorit.
           </p>
 
-          <div className="flex sm:mt-10 mt-6">
-            <img
-              src={apple}
-              alt="google_play"
-              className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer"
-            />
-            <img
-              src={google}
-              alt="google_play"
-              className="w-[144.17px] h-[43.08px] object-contain cursor-pointer"
-            />
-          </div>
+          <div className="flex sm:mt-10 mt-6"></div>
         </div>
 
         <div
           className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
         >
           <img
-            src={interaktif}
+            src={book}
             alt="billing"
             className="w-[100%] h-[100%] relative z-[5]"
           />
@@ -70,9 +58,9 @@ const Hero = () => {
         </div>
 
         <div className={`ss:hidden ${styles.flexCenter}`}></div>
-    </section>
+      </section>
     </Fade>
   );
 };
 
-export default Hero;
+export default Kelas;

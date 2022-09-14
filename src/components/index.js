@@ -13,6 +13,7 @@ import SectionImage from "./SectionImage";
 import Hero from "./Hero";
 import Cs from "./Cs";
 import Promo from "./Promo";
+import Kelas from "./Kelas";
 
 export {
   Navbar,
@@ -30,4 +31,5 @@ export {
   Hero,
   Cs,
   Promo,
+  Kelas,
 };
