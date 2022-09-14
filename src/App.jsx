@@ -13,6 +13,8 @@ import {
   Banner,
   SectionImage,
   Hero,
+  Cs,
+  Promo,
 } from "./components";
 
 const App = () => (
@@ -27,9 +29,10 @@ const App = () => (
       </div>
     </div>
 
-    <div className={`bg-[#f4f7fa] ${styles.paddingX} ${styles.flexCenter}`}>
+    <div className={`bg-[#f4f7fe] ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Banner />
+        <Promo />
       </div>
     </div>
 
@@ -56,6 +59,7 @@ const App = () => (
       <div className={`$styles.boxWidth`}>
         <Testimonials />
         <Clients />
+        <Cs />
       </div>
     </div>
     <div className={`bg-[#2645ad] ${styles.paddingX} ${styles.flexCenter}`}>

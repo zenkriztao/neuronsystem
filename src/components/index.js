@@ -11,6 +11,8 @@ import Information from "./Information";
 import Banner from "./Banner";
 import SectionImage from "./SectionImage";
 import Hero from "./Hero";
+import Cs from "./Cs";
+import Promo from "./Promo";
 
 export {
   Navbar,
@@ -26,4 +28,6 @@ export {
   Banner,
   SectionImage,
   Hero,
+  Cs,
+  Promo,
 };

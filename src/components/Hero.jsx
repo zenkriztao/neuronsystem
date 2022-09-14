@@ -1,5 +1,5 @@
 import styles from "../style";
-import { discount, heroEducation, robot, apple, bill, google } from "../assets";
+import { discount, heroEducation, robot, apple, bill, google, interaktif } from "../assets";
 
 import style from "../style";
 
@@ -41,7 +41,7 @@ const Hero = () => {
         className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}
       >
         <img
-          src={heroEducation}
+          src={interaktif}
           alt="billing"
           className="w-[100%] h-[100%] relative z-[5]"
         />

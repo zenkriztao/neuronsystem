@@ -1,7 +1,8 @@
 import {
-  people01,
-  people02,
-  people03,
+  p1,
+  p2,
+  p3,
+  p4,
   facebook,
   instagram,
   linkedin,
@@ -67,33 +68,29 @@ export const feedback = [
     id: "feedback-1",
     content:
       "Mengikuti Platform Class Bimbel Intensif UTBK 2020 (PTN) – Terima kasih kak atas bimbingan serta tryoutnya, yang PTN ini sangat membantu saya dalam meraih PTN impian, Terima kasih atas bimbingannya.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
+    name: "Kensho Mertha",
+    img: p1,
   },
   {
     id: "feedback-2",
     content:
       "Mengikuti Platform Class Bimbel Intensif UTBK 2020 (PTN) – Kakak tutornya ramah dan friendly, sangat membantu banget yang masih blm ngerti banyak hal tentang soal utbk, semenjak saya ikut program ini jdi makin tambah semangat untuk bersaing dgn murid yang lain, Terima kasih Neura.  ",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
+    name: "Orangtua Zaydan",
+    img: p2,
   },
   {
     id: "feedback-3",
     content:
       "Mengikuti Platform Class Bimbel Intensif UTBK 2020 (PTN) – Platform yang bagus banget bagi saya sebagai pejuang PTN, Terima kasih Neura atas Program Intermediate Campus, berkat platform ini saya akhirnya keterima di ptn, pokoknya recommend buat adik kelasku.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    name: "Putri Shesha Abigail",
+    img: p3,
   },
   {
     id: "feedback-4",
     content:
       "Mengikuti Platform Class Bimbel Intensif UTBK 2020 (PTN) – Platform yang bagus banget bagi saya sebagai pejuang PTN, Terima kasih Neura atas Program Intermediate Campus, berkat platform ini saya akhirnya keterima di ptn, pokoknya recommend buat adik kelasku.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
+    name: "Michael Fernando Debian",
+    img: p4,
   },
 ];
 
