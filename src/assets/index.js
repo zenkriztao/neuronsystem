@@ -1,5 +1,5 @@
 // https://giphy.com/stickers/transparent-neuron-mobility-scooter-H8JnQfNxbXnYs7JwK1
-import logo from "./logo.gif";
+import logo from "./logo.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
